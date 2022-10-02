@@ -1,0 +1,105 @@
+﻿@model IEnumerable<NemeTschek.Data.Event>
+@using System
+@using System.Collections.Generic;
+
+@{
+    ViewData["Title"] = "Home";
+
+    string currentRole = "";
+    if(ViewBag.currentRole == "c589321f-e40a-472d-aa5b-bb8e87e8c463")
+    {
+        currentRole = "ADMIN";
+    }
+    else if(ViewBag.currentRole == "2c633b18-bc64-4eb7-9735-07c68e1162dd")
+    {
+        currentRole = "EMPLOYEE";
+    }
+    else
+    {
+        currentRole = "NOT FOUND";
+    }
+    int count = 0;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="~/css/home.css">
+    @* <script src="https://kit.fontawesome.com/2b070e02a1.js" crossorigin="anonymous"></script>*@
+</head>
+
+<body>
+     <h2>Welcome!</h2>
+
+    <div class="row">
+        <div class="column">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    Start Date
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Location)
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @if(count == 10)
+                {
+                    break;
+                }
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StartDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Location)
+                    </td>
+                    <td>
+                        @if (currentRole == "ADMIN") {
+                            <a asp-controller="Events" asp-action="Edit" asp-route-id="@item.EventId">Edit</a>
+                            <span> |</span>
+                            <a asp-controller="Events" asp-action="Delete" asp-route-id="@item.EventId">Delete</a> 
+                            <span> |</span>
+                            }
+                <a asp-controller="Events" asp-action="Details" asp-route-id="@item.EventId">Details</a>
+
+                                </td>
+                            </tr>
+                            count++;
+                        }
+                    </tbody>
+                </table>
+
+          </div>
+
+
+          <div class="column">
+
+
+            <img weight=200px height=400px class="calendar" src="~/imgs/new-cal.png">
+
+          </div>
+    </div>
+
+</body>
+</html>

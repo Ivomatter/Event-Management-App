@@ -1,0 +1,135 @@
+﻿   @page
+@inject UserManager<ApplicationUser> UserManager
+@inject ApplicationDbContext context;
+@using System.Security.Claims
+@model IndexModel
+@{
+    string? findPhotoDirectory(string userId) {
+        foreach (var u in context.Users) {
+            if(u.UserName == userId) {
+                return u.PhotoDirectory;
+            }
+        }
+        return null;
+    }
+
+    var imagePath = "";
+    ViewData["Title"] = "Profile";
+    ViewData["ActivePage"] = ManageNavPages.Index;
+    var userId = User.FindFirstValue(ClaimTypes.Name);
+    //imagePath = "/icons/" + userId + ".jpg";
+    imagePath = findPhotoDirectory(userId);
+}
+
+<h3>@ViewData["Title"]</h3>
+<partial name="_StatusMessage" for="StatusMessage" />
+<div class="row">
+    <div class="col-md-6">
+        <form id="profile-form" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating">
+                <input asp-for="Username" class="form-control" disabled />
+                <label asp-for="Username" class="form-label"></label>
+            </div>
+            <br />
+            <div class="form-floating">
+                <input asp-for="Input.FirstName" class="form-control" />
+                <label asp-for="Input.FirstName" class="form-label"></label>
+                <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-floating">
+                <input asp-for="Input.LastName" class="form-control" />
+                <label asp-for="Input.LastName" class="form-label"></label>
+                <span asp-validation-for="Input.LastName" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-floating">
+                <input asp-for="Input.PhoneNumber" class="form-control" />
+                <label asp-for="Input.PhoneNumber" class="form-label"></label>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger" ></span>
+            </div>
+            <br />
+            <div class="reg-row">
+                <div class="reg-col">
+                    <h4> Teams:</h4>
+                    @foreach (var team in ViewData["participatingTeams"] as List<Team>)
+                        {
+                            @team.Name <br />
+                        }
+                </div> 
+                <div class="reg-col">
+                    <h4>Edit teams:</h4>
+                    @Html.ListBoxFor(t=>t.Input.TeamsId, new MultiSelectList(Model.Input.Teams,"Id","Name",ViewData["participatingTeams"] as List<Team>))
+                </div> 
+            </div>
+            <br />
+            <div class="reg-row">
+                <div class="reg-col">
+                    <h4>Interests:</h4>
+                    @foreach (var interest in ViewData["UserInterests"] as List<Interest>)
+                    {
+                        @interest.Name <br>
+                    }
+                </div>
+                <div class="reg-col">
+                    <h4>Edit interests:</h4>
+                    @Html.ListBoxFor(t=>t.Input.InterestsIds, new MultiSelectList(Model.Input.Interests,"Id","Name",ViewData["UserInterests"] as List<Interest>))
+                </div>
+            </div>
+            <br />
+
+            @*<div class="form-floating">
+                <label asp-for="fileUpload" class="form-label"></label>
+                <div class="custom-file">
+                    <input asp-for="fileUpload" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Choose File</label>
+                </div>
+                <span asp-validation-for="Upload" class="text-danger"></span>
+                @*<input asp-for="ProfilePhoto" class="form-control" />
+            </div>*@
+
+            <h4>Choose a photo:</h4>
+
+            <div class="form-floating">
+                <div class="form-group">
+                    <label class="file">
+                        <input type="file" asp-for="fileUpload.FormFile" method="post" aria-label="File browser example">
+                        <@*span class="file-custom"></span>*@
+                    </label>
+                    <input asp-page-handler="Upload" class="btn btn-primary" method="post" type="submit" value="Upload">
+                </div>
+            </div>
+            <br />
+            @if (imagePath != "")
+                {
+                    if (imagePath == null)
+                    {
+
+                    }
+                    else
+                    {
+                        <img src=@imagePath alt="Sample Image">
+                    }
+
+                }
+
+            @{
+                if (ViewData["SuccessMessage"] != null)
+                {
+                        <span class="badge badge-success"> @ViewData["SuccessMessage"]</span>
+                }
+            }
+
+            <br /><br />
+           
+            <button asp-page-handler="Post" id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+        </form>
+
+    </div>
+    
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

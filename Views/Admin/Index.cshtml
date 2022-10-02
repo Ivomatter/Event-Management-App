@@ -1,0 +1,85 @@
+﻿@model IEnumerable<NemeTschek.Data.ApplicationUser>
+@using System
+@using System.Collections.Generic;
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="~/css/EventsStyle.css">
+    @* <script src="https://kit.fontawesome.com/2b070e02a1.js" crossorigin="anonymous"></script>*@
+</head>
+<body>
+<!--
+<h1>Users</h1>
+    <h1>Users</h1>
+    <form asp-controller="Admin" asp-action="Index" method="get">
+        <div class="input-group rounded">
+            <input type="text" name="SearchString" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <input type="submit" class="btn btn-primary" value="show all">
+        </div>
+        </form>
+<h1>Users</h1>
+-->
+<form asp-controller="Admin" asp-action="Index" method="get">
+    <div class="input-group rounded">
+            <input type="text" name="SearchString" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon"/>
+        <input type="submit" class="btn btn-primary" value="show all">
+    </div>
+    </form>
+    </body>
+
+
+
+<a asp-controller="Home" asp-action="Export" method="get" class="export-u">Export all users</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                Phone Number
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>  
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Export" asp-route-id="@item.Id">Export</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+

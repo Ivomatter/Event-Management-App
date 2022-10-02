@@ -1,0 +1,147 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: #e95420;
+    height: 1px;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(250, 204, 34, 0.75), rgba( 248, 54, 0, 0.75) );
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+.login-box{
+ background: #FFF;
+ padding: 100px 100px 50px 100px;
+ margin-bottom: 25px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ width: 500px;
+ font-size: 14px;
+ border-radius: 5px;
+ margin-top:70px;
+}
+.user-icon {
+    background: #e95420;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+}
+.user-icon i{
+ font-size: 40px;
+ color: #FFF;
+}
+.login{
+ width: 100%;
+}
+.form-group{
+ margin-bottom: 20px;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+}
+input[type="text"].form-control, input[type="password"].form-control, input[type="tel"].form-control {
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    border: 2px solid #CCC;
+    padding: 16px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+    input[type="text"].form-control:hover, input[type="password"].form-control:hover, input[type="tel"].form-control:hover {
+        border: 2px solid #f8360069;
+    }
+    input[type="text"].form-control:focus, input[type="password"].form-control:focus, input[type="tel"].form-control:focus {
+        border: 2px solid #e95420;
+    }
+    input[type="text"].form-control:active, input[type="password"].form-control:active, input[type="tel"].form-control:active {
+        border: 2px solid #e95420;
+    }
+label{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+label input[type="checkbox"]{
+ width: 20px;
+ height: 20px;
+ margin-right: 10px;
+ cursor: pointer;
+}
+button {
+    outline: none;
+    background: #e95420;
+    color: #FFF;
+    padding: 16px;
+    display: block;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+ box-shadow: 5px 5px 5px #CCC;
+}
+a {
+    color: #e95420;
+}
+.serparater {
+ width: 100%;
+ border-top: 1px solid #F1F1F1;
+ border-bottom: 1px solid #F1F1F1;
+ padding: 10px 0;
+ text-align: center;
+ margin: 20px 0;
+ font-size: 12px;
+}
+.social-login{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+}
+.social-login a {
+ display: inline-block;
+ background: #f83600a9;
+ color: #FFF;
+ padding: 16px;
+ margin-left: 10px;
+ margin-right: 10px;
+ text-decoration: none;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+.social-login a:hover {
+ background: #e95420;
+ box-shadow: 5px 5px 5px #CCC;
+}
+.social-login a i{
+ color: #FFF;
+ margin-right: 10px;
+}

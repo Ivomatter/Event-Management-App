@@ -1,0 +1,225 @@
+﻿@model IEnumerable<NemeTschek.Data.Event>
+@using System
+@using System.Collections.Generic;
+
+@{
+    ViewData["Title"] = "Events";
+    var eventList = ViewData["enrolledEvents"] as Dictionary<int,bool>;
+    string currentRole = "";
+    if(ViewBag.currentRole == "c589321f-e40a-472d-aa5b-bb8e87e8c463")
+    {
+        currentRole = "ADMIN";
+    }
+    else if(ViewBag.currentRole == "2c633b18-bc64-4eb7-9735-07c68e1162dd")
+    {
+        currentRole = "EMPLOYEE";
+    }
+    else
+    {
+        currentRole = "NOT FOUND";
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="~/css/EventsStyle.css">
+    @* <script src="https://kit.fontawesome.com/2b070e02a1.js" crossorigin="anonymous"></script>*@
+</head>
+
+
+<h1>Events</h1>
+
+@*<form asp-controller="Events" asp-action="Index" method="get">
+
+    <div class="input-group rounded">
+        <input type="text" name="SearchString" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+        <input type="submit" class="btn btn-primary" value="show all">
+    </div>
+</form>
+
+@if (currentRole == "ADMIN")
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <p>
+        <a asp-action="PastEvents">Past Events</a>
+    </p>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MinPeople)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaxPeople)
+            </th>
+            @if (currentRole == "EMPLOYEE")
+            {
+                <th>
+                    Enrolled
+                </th>
+            }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MinPeople)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxPeople)
+            </td>
+                @if (currentRole == "EMPLOYEE")
+                {
+                    <td>
+                        @Html.DisplayName(eventList[item.EventId].ToString())
+                    </td>
+                }
+                <td>
+                @if (currentRole == "ADMIN") {
+                <a asp-action="Edit" asp-route-id="@item.EventId">Edit</a>
+                <span> |</span>
+                <a asp-action="Delete" asp-route-id="@item.EventId">Delete</a> 
+                <span> |</span>
+                }
+                <a asp-action="Details" asp-route-id="@item.EventId">Details</a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<a asp-action="SendEmail" asp-controller="Events">Send Email</a>*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+</head>
+<body>
+    <form asp-controller="Events" asp-action="Index" method="get">
+
+        <div class="input-group2 rounded">
+            <input type="text" name="SearchString" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" style="width:50%" />
+            <input type="submit" class="btn btn-primary" value="show all">
+        </div>
+    </form>
+    @if (currentRole == "ADMIN")
+    {
+        <p>
+            <a asp-action="Create" class="btn btn-primary" style='Z-INDEX: 101; right: 120px; POSITION: absolute; TOP: 117px' runat='server'> Create New</a>
+        </p>
+        <p>
+            <a asp-action="PastEvents" class="btn btn-primary" style='Z-INDEX: 101; right: 300px; POSITION: absolute; TOP: 117px' runat='server'> Past Events</a>
+        </p>
+    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    Start Date
+                </th>
+                <th>
+                    End Date
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Location)
+                </th>
+                <th>
+                    Enrolled
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StartDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EndDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Location)
+                    </td>
+                    
+                        @if (eventList[item.EventId])
+                        {
+                            <td>
+                                Yes
+                            </td>
+                        }
+                        else { 
+                            <td>
+                                No
+                            </td>
+                        }             
+                    <td>
+                        @if (currentRole == "ADMIN") {
+
+                            <a asp-action="Edit" asp-route-id="@item.EventId">Edit</a>
+                            <span> |</span>
+                            <a asp-action="Delete" asp-route-id="@item.EventId">Delete</a> 
+                            <span> |</span>
+                            }
+                <a class="button-33" asp-action="Details" asp-route-id="@item.EventId">Details</a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

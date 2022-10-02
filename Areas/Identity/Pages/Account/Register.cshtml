@@ -1,0 +1,303 @@
+﻿@*@page
+@model RegisterModel
+@{
+	ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+	<div class="col-md-4">
+		<form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+			<h2>Create a new account.</h2>
+			<hr />
+
+			<div class="tab">User details:
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-floating">
+					<input asp-for="Input.FirstName" class="form-control" autocomplete="username" aria-required="true" />
+					<label asp-for="Input.FirstName"></label>
+				</div>
+				aiv asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-floating">
+					<input asp-for="Input.LastName" class="form-control" autocomplete="username" aria-required="true" />
+					<label asp-for="Input.LastName"></label>
+				</div>
+
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-floating">
+					<input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+					<label asp-for="Input.Email"></label>
+					<span asp-validation-for="Input.Email" class="text-danger"></span>
+				</div>
+
+				<div class="form-floating">
+					<input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+					<label asp-for="Input.Password"></label>
+					<span asp-validation-for="Input.Password" class="text-danger"></span>
+				</div>
+
+				<div class="form-floating">
+					<input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+					<label asp-for="Input.ConfirmPassword"></label>
+					<span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+				</div>
+			</div>
+
+			<div class="tab"> Extra information:
+				<div class="form-floating">
+					<input asp-for="Input.PhoneNumber" class="form-control" autocomplete="phone-number" aria-required="false" />
+					<label asp-for="Input.PhoneNumber"></label>
+					<span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+				</div>
+
+				<div class="form-floating">
+					<input asp-for="Input.PhoneNumber" class="form-control" autocomplete="phone-number" aria-required="false" />
+					<label asp-for="Input.PhoneNumber"></label>
+					<span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+				</div>
+			</div>
+
+			<button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+		</form>
+	</div>
+	<div class="col-md-6 col-md-offset-2">
+		<section>
+			<h3>Use another service to register.</h3>
+			<hr />
+			@{
+				if ((Model.ExternalLogins?.Count ?? 0) == 0)
+				{
+					<div>
+						<p>
+							There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
+							about setting up this ASP.NET application to support logging in via external services</a>.
+						</p>
+					</div>
+				}
+				else
+				{
+					<form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+						<div>
+							<p>
+								@foreach (var provider in Model.ExternalLogins)
+								{
+									<button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+								}
+							</p>
+						</div>
+					</form>
+				}
+			}
+		</section>
+	</div>
+</div>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}
+*@
+
+@page
+@model RegisterModel
+@{
+	ViewData["Title"] = "Register";
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/2b070e02a1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="~/css/Style.css">
+</head>
+<style>
+
+	* {
+		box-sizing: border-box;
+	}
+
+	#regForm {
+		background-color: #ffffff;
+		margin: 100px auto;
+		font-family: Raleway;
+		padding: 40px;
+		width: 70%;
+		min-width: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h1, h2 {
+		text-align: center;
+	}
+
+	input {
+		padding: 10px;
+		width: 100%;
+		font-size: 17px;
+		border: 1px solid #aaaaaa;
+	}
+
+
+	.tab {
+		display: none;
+	}
+
+	.button:hover {
+		opacity: 0.8;
+	}
+
+
+	.step {
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #facc22;
+		border: none;
+		border-radius: 50%;
+		display: inline-block;
+		opacity: 0.5;
+	}
+
+		.step.active {
+			opacity: 1;
+		}
+
+
+	.left-btn {
+		float: left;
+	}
+
+	.right-btn {
+		float: right;
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="login-box">
+			<form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+				<div class="user-icon" style="margin-left:100px">
+					<i class="far fa-user"></i>
+				</div>
+				<h2>Create a new account</h2><br />
+				<hr />
+				<div class="tab">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<h4>User details:</h4><br>
+
+					<div class="form-group">
+						<input asp-for="Input.FirstName" class="form-control" placeholder="First Name" aria-required="true" input type="text" />
+						<span asp-validation-for="Input.FirstName" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<input asp-for="Input.LastName" class="form-control" placeholder="Last Name" aria-required="true" input type="text" />
+						<span asp-validation-for="Input.LastName" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" input type="text" placeholder="E-mail" id="username" class="form-control" />
+						<span asp-validation-for="Input.Email" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<input asp-for="Input.Password" class="form-control" placeholder="Password" autocomplete="new-password" aria-required="true" input type="password" />
+						<span asp-validation-for="Input.Password" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<input asp-for="Input.ConfirmPassword" class="form-control" placeholder="Confirm Password" autocomplete="new-password" aria-required="true" input type="password" />
+						<span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+					</div>
+					<div class="right-btn">
+						<button class="full-btn" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+					</div>
+					<br /><br />
+				</div>
+				<div class="tab">
+					<h4>Extra information:</h4><br>
+					<div class="form-group">
+						<input asp-for="Input.PhoneNumber" class="form-control" placeholder="Phone Number" autocomplete="phone-number" aria-required="false" input type="tel" />
+						<span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<h5>Teams:</h5>
+						@Html.ListBoxFor(t=>t.Input.TeamsId, new MultiSelectList(Model.Input.Teams,"Id","Name"))
+					</div>
+					<div class="form-group">
+						  <h5>Interests:</h5>
+				          @Html.ListBoxFor(t=>t.Input.InterestsIds, new MultiSelectList(Model.Input.Interests,"Id","Name"))
+				    </div>
+
+					
+				<div>
+				      
+					<div class="right-btn">
+						<button class="full-btn" id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+					</div>
+						<div class="left-btn">
+							<button class="full-btn" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+						</div>
+					<br /><br />
+					<div class="form-group">
+						@*<input asp-for="Input.Team" class="form-control" placeholder="Team" autocomplete="team" aria-required="false" input type="text" />*@
+					</div>
+				</div>
+				<div style="text-align:center;margin-top:40px;">
+					<span class="step"></span>
+					<span class="step"></span>
+				</div>
+				<p>
+					<hr />
+					<br />
+					Have an account?
+					<a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Log In</a>          
+				</p>
+			</form>
+		</div>
+	</div>
+	<script>
+		var currentTab = 0;
+		showTab(currentTab);
+
+		function showTab(n) {
+			var x = document.getElementsByClassName("tab");
+			x[n].style.display = "block";
+			if (n == 0) {
+				document.getElementById("prevBtn").style.display = "none";
+			} else {
+				document.getElementById("prevBtn").style.display = "inline";
+			}
+			if (n == (x.length - 1)) {
+				document.getElementById("nextBtn").innerHTML = "Submit";
+				document.getElementById("nextBtn").className = "full-btn";
+			} else {
+				document.getElementById("nextBtn").innerHTML = "Next";
+			}
+			fixStepIndicator(n)
+		}
+
+		function nextPrev(n) {
+			var x = document.getElementsByClassName("tab");
+			x[currentTab].style.display = "none";
+			currentTab = currentTab + n;
+			if (currentTab >= x.length) {
+				document.getElementById("regForm").submit();
+				return false;
+			}
+			showTab(currentTab);
+		}
+
+		function fixStepIndicator(n) {
+			var i, x = document.getElementsByClassName("step");
+			for (i = 0; i < x.length; i++) {
+				x[i].className = x[i].className.replace(" active", "");
+			}
+			x[n].className += " active";
+		}
+	</script>
+</body>
+</html>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

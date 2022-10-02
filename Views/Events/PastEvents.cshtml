@@ -1,0 +1,89 @@
+﻿@model IEnumerable<NemeTschek.Data.Event>
+@using System
+@using System.Collections.Generic;
+
+@{
+    ViewData["Title"] = "Past Events";
+    //var eventList = ViewData["enrolledEvents"] as Dictionary<int,bool>;
+}
+
+<h1>Past Events</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="~/css/EventsStyle.css">
+    @* <script src="https://kit.fontawesome.com/2b070e02a1.js" crossorigin="anonymous"></script>*@
+</head>
+
+<form asp-controller="Events" asp-action="PastEvents" method="get">
+
+    <div class="input-group2 rounded">
+        <input type="text" name="SearchString" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" style="width:50%"/>
+        <input type="submit" class="btn btn-primary" value="show all">
+    </div>
+</form>
+
+<p>
+    <a asp-action="Index" class="btn btn-primary" style='Z-INDEX: 101; right: 120px; POSITION: absolute; TOP: 117px' runat='server'>All Events</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th>
+                Min.People
+            </th>
+            <th>
+                Max.People
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MinPeople)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxPeople)
+            </td>            
+            <td>
+                <a asp-action="Details" asp-route-id="@item.EventId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.EventId">Delete</a> 
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+

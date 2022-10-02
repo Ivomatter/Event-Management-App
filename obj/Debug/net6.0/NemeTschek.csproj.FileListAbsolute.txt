@@ -1,0 +1,302 @@
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\appsettings.json
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\NemeTschek.staticwebassets.runtime.json
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\NemeTschek.exe
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\NemeTschek.deps.json
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\NemeTschek.runtimeconfig.json
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\NemeTschek.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\NemeTschek.pdb
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Humanizer.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.AssemblyReference.cache
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.AssemblyInfoInputs.cache
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.AssemblyInfo.cs
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.CoreCompileInputs.cache
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.RazorAssemblyInfo.cache
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.RazorAssemblyInfo.cs
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\scopedcss\bundle\NemeTschek.styles.css
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\scopedcss\projectbundle\NemeTschek.bundle.scp.css
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.CopyComplete
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\refint\NemeTschek.dll
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.pdb
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\NemeTschek.genruntimeconfig.cache
+C:\Users\miros\Desktop\C#\Learning\NemeTschek\obj\Debug\net6.0\ref\NemeTschek.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\refint\NemeTschek.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.pdb
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\appsettings.json
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.staticwebassets.runtime.json
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.exe
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.deps.json
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.runtimeconfig.json
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.pdb
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.AssemblyReference.cache
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.AssemblyInfoInputs.cache
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.AssemblyInfo.cs
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.CoreCompileInputs.cache
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.RazorAssemblyInfo.cache
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.RazorAssemblyInfo.cs
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\scopedcss\bundle\NemeTschek.styles.css
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\scopedcss\projectbundle\NemeTschek.bundle.scp.css
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.CopyComplete
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.genruntimeconfig.cache
+C:\Users\ElizabethVK\Source\Repos\2022_Spring\NemeTschek\obj\Debug\net6.0\ref\NemeTschek.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\appsettings.json
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.staticwebassets.runtime.json
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.exe
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.deps.json
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.runtimeconfig.json
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\NemeTschek.pdb
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Spire.Pdf.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Spire.XLS.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.AssemblyReference.cache
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.AssemblyInfoInputs.cache
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.AssemblyInfo.cs
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.CoreCompileInputs.cache
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.RazorAssemblyInfo.cache
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.RazorAssemblyInfo.cs
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\scopedcss\bundle\NemeTschek.styles.css
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\scopedcss\projectbundle\NemeTschek.bundle.scp.css
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.CopyComplete
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\refint\NemeTschek.dll
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.pdb
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\NemeTschek.genruntimeconfig.cache
+C:\Users\ElizabethVK\Source\Repos\NemetschekSpeedItUp\2022_Spring\NemeTschek\obj\Debug\net6.0\ref\NemeTschek.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\appsettings.json
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\NemeTschek.staticwebassets.runtime.json
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\NemeTschek.exe
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\NemeTschek.deps.json
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\NemeTschek.runtimeconfig.json
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\NemeTschek.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\NemeTschek.pdb
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Spire.Pdf.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Spire.XLS.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.AssemblyReference.cache
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.AssemblyInfoInputs.cache
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.AssemblyInfo.cs
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.CoreCompileInputs.cache
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.RazorAssemblyInfo.cache
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.RazorAssemblyInfo.cs
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\scopedcss\bundle\NemeTschek.styles.css
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\scopedcss\projectbundle\NemeTschek.bundle.scp.css
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.csproj.CopyComplete
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\refint\NemeTschek.dll
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.pdb
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\NemeTschek.genruntimeconfig.cache
+C:\Users\Ivo\Desktop\ФМИ\Nemetschej 5\NemeTschek\obj\Debug\net6.0\ref\NemeTschek.dll

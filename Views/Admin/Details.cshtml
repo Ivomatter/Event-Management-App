@@ -1,0 +1,60 @@
+﻿@model NemeTschek.Data.ApplicationUser
+@using Microsoft.AspNetCore.Identity;
+@using NemeTschek.Data;
+
+@inject UserManager<ApplicationUser> UserManager;
+@inject ApplicationDbContext context;
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "User's Profile";
+    
+    var imagePath = Model.PhotoDirectory;
+}
+
+<h1>Profile Details</h1>
+
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            First Name
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class = "col-sm-2">
+            Last Name
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            Phone Number
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @if (imagePath != null)
+            {
+                <img src=@imagePath alt="Sample Image" height="200px" width="200px">
+            }
+            else
+            { }
+
+        </dt>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

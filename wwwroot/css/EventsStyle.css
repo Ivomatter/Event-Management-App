@@ -1,0 +1,113 @@
+﻿.table {
+    margin: 20px auto;
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*    padding: 10px;*/
+    vertical-align:central;
+/*    background-color: #12192c;*/
+}
+
+.table th {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 26px;
+    padding: 18px 30px;
+}
+
+.table thead tr {
+    background: #e95420cc;
+}
+
+.table td {
+    padding: 10px 10px;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    line-height: 26px;
+    color: #464646;
+    vertical-align: middle;
+}
+
+
+.table tbody tr:nth-child(odd) {
+    background: rgba(255, 255, 255, 1);
+}
+
+.table tbody tr:nth-child(even) {
+    background: rgba(219, 219, 219, 1);
+}
+
+.table__wrapper {
+    padding-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn__active {
+    color: #4ed99c;
+    border: 2px solid #4ed99c;
+}
+
+.btn__active:hover {
+    background: #4ed99c;
+}
+
+.btn__pledged {
+    color: #f14044;
+    border: 2px solid #f14044;
+}
+
+.btn__pledged:hover {
+    background: #f14044;
+}
+
+@media (max-width: 768px) {
+    .table td {
+        display: block;
+        text-align: right;
+    }
+
+    .table td:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .table thead display none tr {
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+.credit a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.credit {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
